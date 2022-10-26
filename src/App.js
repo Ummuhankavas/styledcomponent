@@ -6,10 +6,11 @@ const theme ={
     header: '#fff',
     body: '#fff',
     footer: '#8A1C4A',
-  }
-}
+  },
+  responsive: '768px',
+};
 
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
        <Header/>
