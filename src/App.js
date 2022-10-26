@@ -11,7 +11,7 @@ const theme ={
 
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
        <Header/>
     </ThemeProvider>
   );  
