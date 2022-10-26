@@ -20,4 +20,13 @@ justify-content: space-between;
 }
 `
 
+
+export const Image = styled.img`
+width: 350px;
+@media (max-width: ${({theme})=> theme.resonsive}) {
+    margin: 3rem 2rem;
+}
+
+`
+
 export default StyledHeader;
